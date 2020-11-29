@@ -19,7 +19,7 @@ apt install mysql-server -y
 # mv mysqld.cnf /etc/mysql/mysql.conf.d/mysqld.cnf
 
 # Editamos el archivo de configuración de MySQL, modificando la línea (Loop/cualquiera)
-sed -i 's/127.0.0.1/0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf 
+sed -i "s/127.0.0.1/0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf 
 # Reiniciamos el servicio
 sudo /etc/init.d/mysql restart
 # Clonamos el repositorio
