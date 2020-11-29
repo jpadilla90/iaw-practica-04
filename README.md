@@ -7,7 +7,7 @@ Ciclo: CFGS Administración de Sistemas Informáticos en Red
 
 **Archivos en el repositorio**
 ------------
-1. front_end.sh—Script de bash para instalar los elementos en el servidor front-end primario y en el secundario.
+1. front_end.sh—Script de bash para instalar los elementos en el servidor front-end primario y en el secundario. Hay dos script diferenciados solo de manera simbólica.
 2. back_end.sh-Script de bash para instalar los elementos en el servidor back-end
 3. 000-default.conf—Archivo de configuración para Apache.
 4. README.md—Enlace para repositorio
@@ -25,5 +25,7 @@ Repetimos la operación de la práctica anterior, pero ahora podremos acceder a 
 ![](/images/3.png)
 *front_end secundaria*
 
-Probaremos ambas máquinas con la IP pública, tanto para introducir datos como para ver los datos resultantes.
+Probaremos ambas máquinas con la IP pública, tanto para introducir datos como para ver los datos resultantes. De encontrar algún error, hay que revisar los archivos de configuración hasta localizarlo y enmendarlo.
 
+![](/images/4.png)
+Máquinas y direcciones empleadas durante la práctica.
